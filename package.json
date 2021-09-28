@@ -1,0 +1,17 @@
+{
+  "name": "advanced-command-handler",
+  "version": "1.0.0",
+  "description": "An advanced command handler for Discord.js written in typescript",
+  "main": "dist/index.js",
+  "scripts": {
+    "compile": "tsc -p .",
+    "start": "node dist/index.js",
+    "run": "npm run compile && npm run start"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^13.1.0",
+    "dotenv": "^10.0.0"
+  }
+}
